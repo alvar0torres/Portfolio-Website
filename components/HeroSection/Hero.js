@@ -5,7 +5,7 @@ import classes from "./Hero.module.scss";
 
 const Hero = () => {
   return (
-    <section className={classes.heroSection}>
+    <section id="home" className={classes.heroSection}>
       <div className={classes.overlay}>
         <div className={classes.content_area}>
           <div className={classes.heroSection__card}>

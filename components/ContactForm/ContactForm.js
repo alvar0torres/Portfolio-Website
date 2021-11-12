@@ -6,7 +6,7 @@ import classes from "./ContactForm.module.scss";
 
 const ContactForm = () => {
   return (
-    <section>
+    <section id="contact" className={classes.contact}>
       <div className={classes.container}>
         <div className={classes.heading}>
           <h1 className={classes.contact__title}>CONTACT</h1>
@@ -18,22 +18,27 @@ const ContactForm = () => {
         </div>
 
         <form className={classes.form}>
-          <Card>
+            <label className={classes.label}>Name</label>
             <TextField
               required
+              className={classes.input}
               id="outlined-basic"
               label="Enter your name"
               variant="outlined"
             />
+            <label className={classes.label}>Email</label>
             <TextField
               required
+              className={classes.input}
               id="outlined-basic"
               type="email"
               label="Enter your e-mail"
               variant="outlined"
             />
+            <label className={classes.label}>Message</label>
             <TextField
               required
+              className={classes.input}
               id="outlined-multiline-static"
               label="Enter your message..."
               multiline
@@ -47,7 +52,7 @@ const ContactForm = () => {
             >
               SUBMIT
             </button>
-          </Card>
+         
         </form>
       </div>
     </section>

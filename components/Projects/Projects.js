@@ -1,4 +1,8 @@
+import Link from 'next/link'
+
 import classes from "./Projects.module.scss";
+
+
 
 const Projects = () => {
   return (
@@ -29,9 +33,9 @@ const Projects = () => {
                 Web application that allows users to buy and sell cars by using
                 an auctions system together with a bunch of other features.
               </p>
-              <a target="_blank" rel="noopener noreferrer" href="https://car-auctions.vercel.app/">
-                <button className={classes.button}>LIVE VERSION</button>
-              </a>
+              <Link href="/project/project-x">
+                <button className={classes.button}>MORE INFO</button>
+              </Link>
             </div>
           </div>
         </div>

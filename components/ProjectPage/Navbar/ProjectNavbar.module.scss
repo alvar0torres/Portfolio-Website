@@ -1,0 +1,34 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    background: #043c6d;
+    min-height: 5rem;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  
+    @media (max-width: 60rem) {
+      display: none;
+    }
+  
+    .navbar__list {
+      display: flex;
+      list-style: none;
+      font-size: 1.5rem;
+      margin: 0;
+      padding: 0;
+  
+      li {
+        padding: 0 2rem;
+  
+        &:hover {
+          color: #ff9504;
+          transition: all 0.3s ease-out;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  

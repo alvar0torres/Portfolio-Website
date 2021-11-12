@@ -1,7 +1,14 @@
-.container {
-  background: #0062b9;
+.contact {
   min-height: 100vh;
   width: 100%;
+  background: #0062b9;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 92%;
+  margin: 0 auto;
 }
 
 .heading {
@@ -16,6 +23,10 @@
   font-size: 2rem;
   margin-top: 7rem;
   margin-bottom: 1rem;
+
+  @media (max-width: 60rem) {
+    margin-top: 4rem;
+  }
 }
 
 .separator {
@@ -33,34 +44,46 @@
 }
 
 .form {
-    
-    padding-bottom: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    text-align: center;
-    max-width: 60rem;
-    margin: 0 auto;
-    margin-top: 4rem;
-    justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  margin: 4rem auto;
+  min-width: 50%;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+
+  @media (max-width: 60rem) {
+    width: 100%;
+  }
+}
+
+.input {
+  background-color: rgba(177, 171, 171, 0.15);
 }
 
 .button {
-    width: 10rem;
-    background-color: #0062b9;
-    color: white;
-    height: 3rem;
-    padding: 0;
-    border: none;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    font-size: 1rem;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 1rem;
-    justify-self: right;
-  
-    &:hover {
-      transform: translateY(-0.2rem);
-      transition: 0.3s ease-out;
-    }
-  }
+  width: 10rem;
+  background-color: #0062b9;
+  color: white;
+  height: 3rem;
+  padding: 0;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 1rem;
+  justify-self: right;
 
+  &:hover {
+    transform: translateY(-0.2rem);
+    transition: 0.3s ease-out;
+  }
+}
+
+.label {
+  font-size: 0.85rem;
+  font-weight: bold;
+}

@@ -11,6 +11,10 @@
   padding: 0;
   align-items: center;
 
+  @media (max-width: 60rem) {
+    display: none;
+  }
+
   .navbar__list {
     display: flex;
     list-style: none;

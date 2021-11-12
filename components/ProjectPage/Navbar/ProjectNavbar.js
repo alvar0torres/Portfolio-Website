@@ -1,6 +1,6 @@
-import classes from "./Navbar.module.scss";
+import classes from "./ProjectNavbar.module.scss";
 
-const Navbar = () => {
+const ProjectNavbar = () => {
     return <nav className={classes.navbar}>
         <ul className={classes.navbar__list}>
             <li><a href="/#home">Home</a></li>
@@ -12,4 +12,4 @@ const Navbar = () => {
     </nav>
 };
 
-export default Navbar;
+export default ProjectNavbar;

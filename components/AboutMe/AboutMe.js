@@ -15,6 +15,7 @@ const AboutMe = () => {
           </span>
         </div>
         <div className={classes.about__content}>
+          
           <div className={classes["about__content-main"]}>
             <h3 className={classes["about__content-title"]}>Get to know me!</h3>
             <div className={classes["about__content-details"]}>
@@ -40,6 +41,7 @@ const AboutMe = () => {
               CONTACT
             </button>
           </div>
+
           <div className={classes["about__content-skills"]}>
             <h3 className={classes["about__content-title"]}>My Skills</h3>
             <div className={classes["skills"]}>
@@ -57,6 +59,7 @@ const AboutMe = () => {
               <div className={classes["skills__skill"]}>IOS</div>
             </div>
           </div>
+
         </div>
       </div>
     </section>
