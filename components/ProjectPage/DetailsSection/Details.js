@@ -63,7 +63,7 @@ const Details = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://car-auctions.vercel.app/"
+                href="https://github.com/alvar0torres/Car-Auctions"
               >
                 <button className={classes.button_code}>CODE LINK</button>
               </a>
