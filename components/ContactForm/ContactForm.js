@@ -1,5 +1,3 @@
-import Card from "../UI/Card";
-
 import TextField from "@mui/material/TextField";
 
 import classes from "./ContactForm.module.scss";

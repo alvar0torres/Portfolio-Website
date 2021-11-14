@@ -1,22 +1,25 @@
 import { useState } from "react";
+import Link from "next/link";
 
 import MenuIcon from "@mui/icons-material/Menu";
 
 import classes from "./Navbar.module.scss";
 
 const Navbar = () => {
-    const [backdropClass, setBackDropClass] = useState(classes["backdrop-close"]);
-    const [drawerClass, setDrawerClass] = useState(classes["navbar-mobile-closed"]);
+  const [backdropClass, setBackDropClass] = useState(classes["backdrop-close"]);
+  const [drawerClass, setDrawerClass] = useState(
+    classes["navbar-mobile-closed"]
+  );
 
-    const openMenuHandler = () => {
-        setBackDropClass(classes["backdrop-open"]);
-        setDrawerClass(classes["navbar-mobile-open"]);
-    };
+  const openMenuHandler = () => {
+    setBackDropClass(classes["backdrop-open"]);
+    setDrawerClass(classes["navbar-mobile-open"]);
+  };
 
-    const closeMenuHandler = () => {
-        setBackDropClass(classes["backdrop-closed"]);
-        setDrawerClass(classes["navbar-mobile-closed"]);
-    };
+  const closeMenuHandler = () => {
+    setBackDropClass(classes["backdrop-closed"]);
+    setDrawerClass(classes["navbar-mobile-closed"]);
+  };
 
   return (
     <section>
@@ -24,19 +27,29 @@ const Navbar = () => {
       <nav className={classes.navbar}>
         <ul className={classes.navbar__list}>
           <li>
-            <a href="/#home">Home</a>
+            <Link href="/#home">
+              <a>Home</a>
+            </Link>
           </li>
           <li>
-            <a href="/#about">About me</a>
+            <Link href="/#about">
+              <a>About me</a>
+            </Link>
           </li>
           <li>
-            <a href="/#about">Skills</a>
+            <Link href="/#about">
+              <a>Skills</a>
+            </Link>
           </li>
           <li>
-            <a href="/#projects">Projects</a>
+            <Link href="/#projects">
+              <a>Projects</a>
+            </Link>
           </li>
           <li>
-            <a href="/#contact">Contact me</a>
+            <Link href="/#contact">
+              <a>Contact me</a>
+            </Link>
           </li>
         </ul>
       </nav>
@@ -50,31 +63,41 @@ const Navbar = () => {
         <nav className={drawerClass}>
           <ul className={classes["navbar-mobile__list"]}>
             <li className={classes["navbar-mobile__list__item"]}>
-              <a onClick={closeMenuHandler} href="/#home">Home</a>
+              <Link href="/#home">
+                <div onClick={closeMenuHandler}>Home</div>
+              </Link>
             </li>
             <li>
               <hr />
             </li>
             <li className={classes["navbar-mobile__list__item"]}>
-              <a onClick={closeMenuHandler} href="/#about">About me</a>
+              <Link href="/#about">
+                <div onClick={closeMenuHandler}>About me</div>
+              </Link>
             </li>
             <li>
               <hr />
             </li>
             <li className={classes["navbar-mobile__list__item"]}>
-              <a onClick={closeMenuHandler} href="/#about">Skills</a>
+              <Link href="/#about">
+                <div onClick={closeMenuHandler}>Skills</div>
+              </Link>
             </li>
             <li>
               <hr />
             </li>
             <li className={classes["navbar-mobile__list__item"]}>
-              <a onClick={closeMenuHandler} href="/#projects">Projects</a>
+              <Link href="/#projects">
+                <div onClick={closeMenuHandler}>Projects</div>
+              </Link>
             </li>
             <li>
               <hr />
             </li>
             <li className={classes["navbar-mobile__list__item"]}>
-              <a onClick={closeMenuHandler} href="/#contact">Contact me</a>
+              <Link href="/#contact">
+                <div onClick={closeMenuHandler}>Contact me</div>
+              </Link>
             </li>
           </ul>
         </nav>

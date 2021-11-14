@@ -1,8 +1,6 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 import classes from "./Projects.module.scss";
-
-
 
 const Projects = () => {
   return (
@@ -27,7 +25,7 @@ const Projects = () => {
                 loading="lazy"
               />
             </div>
-            <div class="projects__row-content">
+            <div>
               <h3 className={classes.project_title}>Car-Auctions</h3>
               <p className={classes.project_description}>
                 Web application that allows users to buy and sell cars by using

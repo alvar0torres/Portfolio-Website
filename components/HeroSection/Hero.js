@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { ImCircleDown } from "react-icons/im";
 
@@ -13,29 +15,29 @@ const Hero = () => {
             <h4 className={classes.main_text}>
               I’m passionate about JavaScript and all the web technologies that
               surround it. I’m currently looking for the right opportunity to
-              work in an environment that will allow me to apply my
-              knowledge in real-world projects.
+              work in an environment that will allow me to apply my knowledge in
+              real-world projects.
             </h4>
             <div className={classes.external_links}>
-              <a
+              <Link
                 href="https://github.com/alvar0torres"
                 target="_blank"
                 rel="noreferrer"
               >
                 <FaGithub className={classes.icon} />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://www.linkedin.com/in/alvaro-torres-valderrama-001095198/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <FaLinkedinIn className={classes.icon} />
-              </a>
+              </Link>
             </div>
           </div>
-          <a href="#about" className={classes.down_icon}>
-            <ImCircleDown />
-          </a>
+          <Link href="#about">
+            <ImCircleDown className={classes.down_icon} />
+          </Link>
         </div>
       </div>
     </section>
