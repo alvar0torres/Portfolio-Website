@@ -15,7 +15,7 @@ const ContactForm = () => {
           </span>
         </div>
 
-        <form className={classes.form}>
+        <form action="https://formsubmit.co/5cfba8f9fbe97a48f77190cd5ac7d09c" method="POST" className={classes.form}>
             <label className={classes.label}>Name</label>
             <TextField
               required
@@ -23,6 +23,7 @@ const ContactForm = () => {
               id="outlined-basic"
               label="Enter your name"
               variant="outlined"
+              name="name"
             />
             <label className={classes.label}>Email</label>
             <TextField
@@ -32,6 +33,7 @@ const ContactForm = () => {
               type="email"
               label="Enter your e-mail"
               variant="outlined"
+              name="email"
             />
             <label className={classes.label}>Message</label>
             <TextField
@@ -41,6 +43,7 @@ const ContactForm = () => {
               label="Enter your message..."
               multiline
               rows={8}
+              name="message"
             />
 
             <button
