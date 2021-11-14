@@ -19,20 +19,20 @@ const Hero = () => {
               real-world projects.
             </h4>
             <div className={classes.external_links}>
-              <Link
+              <a
                 href="https://github.com/alvar0torres"
                 target="_blank"
                 rel="noreferrer"
               >
                 <FaGithub className={classes.icon} />
-              </Link>
-              <Link
+              </a>
+              <a
                 href="https://www.linkedin.com/in/alvaro-torres-valderrama-001095198/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <FaLinkedinIn className={classes.icon} />
-              </Link>
+              </a>
             </div>
           </div>
           <Link href="#about">

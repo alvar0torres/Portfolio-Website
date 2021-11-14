@@ -32,7 +32,7 @@ const AboutMe = () => {
                 experience.
               </p>
             </div>
-            <button href="./#contact" className={classes.button}>
+            <button href="/#contact" className={classes.button}>
               CONTACT
             </button>
           </div>
