@@ -10,8 +10,9 @@ const Projects = () => {
           <h1 className={classes.projects__title}>PROJECTS</h1>
           <div className={classes.separator}></div>
           <span className={classes.projects__description}>
-            Here you will find some of the personal and clients projects that I
-            created with each project containing its own case study
+            Here you will find some of the personal projects that I created with
+            each project containing its own explanation of features and link to
+            the live version.
           </span>
         </div>
 

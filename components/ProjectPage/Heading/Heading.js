@@ -4,11 +4,10 @@ const Heading = () => {
   return (
     <div className={classes.heading}>
       <div className={classes.grid}>
-        <h1 className={classes.heading__title}>PROJECT X</h1>
+        <h1 className={classes.heading__title}>CAR-AUCTIONS</h1>
         <div className={classes.heading__description}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-          in numquam incidunt earum quaerat cum fuga, atque similique natus
-          nobis sit.
+          Web application made with React and Next.js that allows users to buy
+          and sell cars by using an auctions system.
         </div>
         <a
           target="_blank"

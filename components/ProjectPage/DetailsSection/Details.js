@@ -18,20 +18,23 @@ const Details = () => {
             <div className={classes.text_section}>
               <h3 className={classes.info__title}>Project X</h3>
               <p className={classes.info__description}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Neque alias tenetur minus quaerat
-                aliquid, aut provident blanditiis, deleniti aspernatur ipsam
-                eaque veniam voluptatem corporis vitae mollitia laborum corrupti
-                ullam rem?
+                Web application that allows users to buy and sell cars by using
+                an auctions system together with a bunch of other features.
               </p>
               <p className={classes.info__description}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem?
+                These are the functionalities/features of this web application:
+                <ul>
+                  <li>Full Responsive</li>
+                  <li>Login/Logout</li>
+                  <li>Auto-Logout after 1h session</li>
+                  <li>Create car auctions</li>
+                  <li>Place bids on existing auctions</li>
+                  <li>Add auction to favourites</li>
+                  <li>The remaining time for each auction is displayed in real time</li>
+                  <li>When an auction ends, the name of the user that placed the last bid is displayed as a winner</li>
+                  <li>Filtering of results by auction state and price range</li>
+                  <li>Contact us form</li>
+                </ul>
               </p>
             </div>
             <div className={classes.tool_section}>
@@ -41,14 +44,9 @@ const Details = () => {
                 <div className={classes.tool}>CSS</div>
                 <div className={classes.tool}>JavaScript</div>
                 <div className={classes.tool}>React</div>
-                <div className={classes.tool}>SASS</div>
-                <div className={classes.tool}>GIT</div>
-                <div className={classes.tool}>Shopify</div>
-                <div className={classes.tool}>Wordpress</div>
-                <div className={classes.tool}>Google ADS</div>
-                <div className={classes.tool}>Facebook Ads</div>
-                <div className={classes.tool}>Android</div>
-                <div className={classes.tool}>IOS</div>
+                <div className={classes.tool}>Redux</div>
+                <div className={classes.tool}>Next.js</div>
+                <div className={classes.tool}>Firebase</div>
               </div>
             </div>
             <div className={classes.see_live}>
