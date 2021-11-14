@@ -20,10 +20,10 @@ const AboutMe = () => {
             <h3 className={classes["about__content-title"]}>Get to know me!</h3>
             <div className={classes["about__content-details"]}>
               <p className={classes["about__content-details-para"]}>
-                Hey! It's
+                Hey! {"It's"}
                 <strong> Alvaro Torres </strong>
-                and I'm a <strong> Frontend Web Developer </strong> located in
-                Cracow. I've done
+                and {"I'm"} a <strong> Frontend Web Developer </strong> located in
+                Cracow. {"I've"} done
                 <strong> remote </strong>
                 projects for agencies, consulted for startups, and collaborated
                 with talented people to create
@@ -31,7 +31,7 @@ const AboutMe = () => {
                 for both business and consumer use.
               </p>
               <p className={classes["about__content-details-para"]}>
-                I'm a bit of a digital product junky. Over the years, I've used
+                {"I'm"} a bit of a digital product junky. Over the years, {"I've"} used
                 hundreds of web and mobile apps in different industries and
                 verticals. Feel free to
                 <strong> contact </strong>me here.

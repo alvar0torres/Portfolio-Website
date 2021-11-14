@@ -11,10 +11,10 @@ const Hero = () => {
       <div className={classes.overlay}>
         <div className={classes.content_area}>
           <div className={classes.heroSection__card}>
-            <h1 className={classes.main_title}>I'm Alvaro Torres.</h1>
+            <h1 className={classes.main_title}>{"I'm"} Alvaro Torres.</h1>
             <h4 className={classes.main_text}>
-              I’m passionate about JavaScript and all the web technologies that
-              surround it. I’m currently looking for the right opportunity to
+              {"I’m"} passionate about JavaScript and all the web technologies that
+              surround it. {"I’m"} currently looking for the right opportunity to
               work in an environment that will allow me to apply my knowledge in
               real-world projects.
             </h4>
