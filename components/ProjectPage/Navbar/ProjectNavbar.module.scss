@@ -79,7 +79,6 @@
     background: white;
     width: 70%;
     height: 100%;
-    align-content: center;
     transform: translateX(0);
     transition: all 200ms ease-out;
   }
@@ -88,13 +87,13 @@
     width: 90%;
     height: 100%;
     list-style: none;
-    margin: 0 auto;
+    margin: 2rem auto;
     padding: 0;
-    text-align: center;
+    font-weight: bold;
 
     .navbar-mobile__list__item {
-      margin: 15% 0;
-      font-size: 2rem;
+      margin: 1rem 0;
+      font-size: 1.5rem;
     }
   }
 }
