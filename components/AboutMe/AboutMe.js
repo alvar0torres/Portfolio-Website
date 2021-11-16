@@ -41,9 +41,9 @@ const AboutMe = () => {
                 </Link>
               </p>
             </div>
-            <a href="/#contact">
+            <Link href="/#contact">
               <button className={classes.button}>CONTACT</button>
-            </a>
+            </Link>
           </div>
 
           <div id="skills" className={classes["about__content-skills"]}>
