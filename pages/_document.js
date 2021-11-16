@@ -14,7 +14,7 @@ class MyDocument extends Document {
           <title>Alvaro Torres</title>
           <meta
           name="description"
-          content="My personal portfolio"
+          content="My Portfolio Website"
           />
         </Head>
         <body>
