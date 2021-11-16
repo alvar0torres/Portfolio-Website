@@ -1,4 +1,4 @@
-//domain.com/projectId
+//domain.com/car-auctions
 
 import ProjectNavbar from "../../components/ProjectPage/Navbar/ProjectNavbar";
 import Heading from "../../components/ProjectPage/Heading/Heading";

@@ -32,7 +32,7 @@ const Projects = () => {
                 Web application that allows users to buy and sell cars by using
                 an auctions system together with a bunch of other features.
               </p>
-              <Link href="/project/project-x">
+              <Link href="/projects/car-auctions">
                 <button className={classes.button}>MORE INFO</button>
               </Link>
             </div>

@@ -3,7 +3,7 @@ import classes from "./Details.module.scss";
 const Details = () => {
   return (
     <section className={classes.details}>
-      <div className={classes.container}>
+      <div className={classes["section-container"]}>
         <div className={classes.details__imgContainer}>
           <img
             src="/car-auctions-mockup.jpg"
@@ -15,7 +15,7 @@ const Details = () => {
 
         <div className={classes.info}>
           <div>
-            <div className={classes.text_section}>
+            <div>
               <h3 className={classes.info__title}>Car-Auctions</h3>
               <p className={classes.info__description}>
                 Web application that allows users to buy and sell cars by using
@@ -56,6 +56,18 @@ const Details = () => {
             </div>
             <div className={classes.see_live}>
               <h3 className={classes.info__title}>See Live</h3>
+              <div className={classes.info__description}>
+                <strong>NOTE:</strong> You can use the following credentials if
+                you do not have time to create an account:
+                <ul>
+                  <li>
+                    <strong>Email:</strong> testuser@email.com
+                  </li>
+                  <li>
+                    <strong>Password:</strong> 123456
+                  </li>
+                </ul>
+              </div>
               <a
                 target="_blank"
                 rel="noopener noreferrer"

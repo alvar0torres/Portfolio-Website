@@ -79,7 +79,7 @@ const Navbar = () => {
               <hr />
             </li>
             <li className={classes["navbar-mobile__list__item"]}>
-              <Link href="/#about">
+              <Link href="/#skills">
                 <div onClick={closeMenuHandler}>Skills</div>
               </Link>
             </li>
