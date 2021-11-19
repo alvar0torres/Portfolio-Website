@@ -62,6 +62,8 @@ const AboutMe = () => {
               <div className={classes["skills__skill"]}>Algorithms</div>
               <div className={classes["skills__skill"]}>Data Structures</div>
               <div className={classes["skills__skill"]}>REST API</div>
+              <div className={classes["skills__skill"]}>Material UI</div>
+              <div className={classes["skills__skill"]}>Photoshop</div>
             </div>
           </div>
         </div>

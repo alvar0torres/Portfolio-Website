@@ -20,6 +20,29 @@ const Projects = () => {
           <div className={classes.projects__row}>
             <div className={classes["projects__row-img-cont"]}>
               <img
+                src="/crypto_tracker_mockup.jpg"
+                alt="Software Screenshot"
+                className={classes["projects__row-img"]}
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <h3 className={classes.project_title}>Crypto Price Tracker</h3>
+              <p className={classes.project_description}>
+                It displays cryptocurrency prices and charts in real time. The
+                data is received via API connection to Coingecko.
+              </p>
+              <Link href="/projects/crypto-price-tracker">
+                <button className={classes.button}>MORE</button>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className={classes.projects__content}>
+          <div className={classes.projects__row}>
+            <div className={classes["projects__row-img-cont"]}>
+              <img
                 src="/car-auctions-mockup.jpg"
                 alt="Software Screenshot"
                 className={classes["projects__row-img"]}
@@ -33,7 +56,7 @@ const Projects = () => {
                 an auctions system together with a bunch of other features.
               </p>
               <Link href="/projects/car-auctions">
-                <button className={classes.button}>MORE INFO</button>
+                <button className={classes.button}>MORE</button>
               </Link>
             </div>
           </div>

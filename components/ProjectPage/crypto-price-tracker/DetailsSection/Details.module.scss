@@ -1,0 +1,127 @@
+.details {
+    width: 100%;
+  
+    .section-container {
+      padding-top: 4rem;
+      max-width: 80%;
+      margin: 0 auto;
+  
+      @media (max-width: 60rem) {
+        max-width: 90%;
+      }
+    }
+  
+    .details__imgContainer {
+      max-width: 65%;
+      margin: 0 auto;
+  
+      @media (max-width: 60rem) {
+        max-width: 100%;
+      }
+    }
+  
+    .details__img {
+      width: 100%;
+      display: block;
+      object-fit: cover;
+    }
+  
+    .info {
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-items: center;
+      max-width: 48rem;
+      margin: 0 auto;
+    }
+  
+    .info__description {
+      font-size: 1.1rem;
+      color: grey;
+      max-width: 60rem;
+      line-height: 1.7;
+      margin-bottom: 1rem;
+  
+      @media (max-width: 60rem) {
+        font-size: 1rem;
+      }
+    }
+  
+    .info__title {
+      font-weight: 700;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+  
+      @media (max-width: 60rem) {
+        font-size: 1.5rem;
+      }
+    }
+  
+    .tools {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+  
+      .tool {
+        padding: 0.75rem 1.25rem;
+        margin-bottom: 1.25rem;
+        margin-right: 1.25rem;
+        font-size: 1rem;
+        background: rgba(153, 153, 153, 0.2);
+        border-radius: 5px;
+        font-weight: 600;
+        color: #777;
+  
+        @media (max-width: 60rem) {
+          margin-bottom: 0.75rem;
+          margin-right: 1rem;
+          padding: 0.5rem 0.75rem;
+        }
+      }
+    }
+  
+    .see_live {
+      padding-bottom: 5rem;
+    }
+  
+    .button_live_sm {
+      letter-spacing: 2px;
+      width: 10rem;
+      background-color: #0062b9;
+      color: white;
+      height: 3rem;
+      padding: 0;
+      border: none;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-top: 1rem;
+      margin-right: 1rem;
+  
+      &:hover {
+        transform: translateY(-0.2rem);
+        transition: 0.3s ease-out;
+      }
+    }
+  
+    .button_code {
+      letter-spacing: 2px;
+      width: 10rem;
+      background-color: white;
+      color: #0062b9;
+      height: 3rem;
+      padding: 0;
+      border-color: #0062b9;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-top: 1rem;
+  
+      &:hover {
+        transform: translateY(-0.2rem);
+        transition: 0.3s ease-out;
+      }
+    }
+  }
+  
