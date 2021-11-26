@@ -13,7 +13,7 @@ class MyDocument extends Document {
           <link rel="shortcut icon" href="/code.png" />
           <title>Alvaro Torres</title>
           <meta name="description" content="My Portfolio Website" />
-          <meta name="image" property="og:image" content="/portfolio_picture.jpg"/>
+          <meta name="image" property="og:image" content="https://live.staticflickr.com/65535/51707377849_4d7b1f58c5_k.jpg"/>
         </Head>
         <body>
           <Main />
