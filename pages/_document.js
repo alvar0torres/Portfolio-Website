@@ -12,10 +12,8 @@ class MyDocument extends Document {
         <Head>
           <link rel="shortcut icon" href="/code.png" />
           <title>Alvaro Torres</title>
-          <meta
-          name="description"
-          content="My Portfolio Website"
-          />
+          <meta name="description" content="My Portfolio Website" />
+          <meta name="image" property="og:image" content="/portfolio_picture.jpg"/>
         </Head>
         <body>
           <Main />
