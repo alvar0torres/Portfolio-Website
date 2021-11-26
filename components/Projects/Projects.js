@@ -20,6 +20,28 @@ const Projects = () => {
           <div className={classes.projects__row}>
             <div className={classes["projects__row-img-cont"]}>
               <img
+                src="/fiszki_mockup.jpg"
+                alt="Software Screenshot"
+                className={classes["projects__row-img"]}
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <h3 className={classes.project_title}>Fiszki Online</h3>
+              <p className={classes.project_description}>
+                Learn Spanish with the Fiszki flashcards (for Polish speakers).
+              </p>
+              <Link href="/projects/fiszki-online">
+                <button className={classes.button}>MORE</button>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className={classes.projects__content}>
+          <div className={classes.projects__row}>
+            <div className={classes["projects__row-img-cont"]}>
+              <img
                 src="/crypto_tracker_mockup.jpg"
                 alt="Software Screenshot"
                 className={classes["projects__row-img"]}
