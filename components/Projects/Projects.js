@@ -20,6 +20,29 @@ const Projects = () => {
           <div className={classes.projects__row}>
             <div className={classes["projects__row-img-cont"]}>
               <img
+                src="/gravity_laptop.jpg"
+                alt="Software Screenshot"
+                className={classes["projects__row-img"]}
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <h3 className={classes.project_title}>Gravity</h3>
+              <p className={classes.project_description}>
+                It calculates how much you would weight on other planets of the
+                Solar System.
+              </p>
+              <Link href="/projects/gravity">
+                <button className={classes.button}>MORE</button>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className={classes.projects__content}>
+          <div className={classes.projects__row}>
+            <div className={classes["projects__row-img-cont"]}>
+              <img
                 src="/fiszki_mockup.jpg"
                 alt="Software Screenshot"
                 className={classes["projects__row-img"]}
