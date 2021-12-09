@@ -59,11 +59,11 @@ const AboutMe = () => {
               <div className={classes["skills__skill"]}>GIT</div>
               <div className={classes["skills__skill"]}>Firebase</div>
               <div className={classes["skills__skill"]}>MongoDB</div>
-              <div className={classes["skills__skill"]}>Algorithms</div>
-              <div className={classes["skills__skill"]}>Data Structures</div>
               <div className={classes["skills__skill"]}>REST API</div>
               <div className={classes["skills__skill"]}>Material UI</div>
               <div className={classes["skills__skill"]}>Photoshop</div>
+              <div className={classes["skills__skill"]}>Unit Testing</div>
+              <div className={classes["skills__skill"]}>React Testing Library</div>
             </div>
           </div>
         </div>

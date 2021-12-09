@@ -47,6 +47,15 @@ const Details = () => {
                 <ul className={classes.info__description}>
                   <li>Full responsive design</li>
                 </ul>
+                <ul className={classes.info__description}>
+                  <li>Tests: I have tested the following (tests are in App.test.js):</li>
+                  <li style={{ listStyle: "none" }}>
+                    <ul className={classes.info__description}>
+                      <li>Tested that calculations are correct for every displayed planet</li>
+                      <li>Tested that error message is displayed if not a valid number is entered in the input</li>
+                    </ul>
+                  </li>
+                </ul>
               </div>
             </div>
             <div className={classes.tool_section}>
@@ -56,6 +65,7 @@ const Details = () => {
                 <div className={classes.tool}>CSS</div>
                 <div className={classes.tool}>JavaScript</div>
                 <div className={classes.tool}>React</div>
+                <div className={classes.tool}>React Testing Library</div>
               </div>
             </div>
             <div className={classes.see_live}>

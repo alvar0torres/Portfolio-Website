@@ -27,10 +27,10 @@ const Projects = () => {
               />
             </div>
             <div>
-              <h3 className={classes.project_title}>Gravity</h3>
+              <h3 className={classes.project_title}>Gravity (With Tests)</h3>
               <p className={classes.project_description}>
                 It calculates how much you would weight on other planets of the
-                Solar System.
+                Solar System. Also added to the code some unit tests.
               </p>
               <Link href="/projects/gravity">
                 <button className={classes.button}>MORE</button>
