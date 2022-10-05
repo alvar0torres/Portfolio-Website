@@ -14,7 +14,7 @@ const Hero = () => {
             <h1 className={classes.main_title}>{"I'm"} Alvaro Torres.</h1>
             <h4 className={classes.main_text}>
               {"I’m"} passionate about JavaScript and all the web technologies that
-              surround it. {"I’m"} based in Krakow and {"I’m"} currently looking for an entry-level role as a Frontend Developer.
+              surround it. {"I’m"} based in Krakow and {"I’m"} using Angular at my current professional role.
             </h4>
             <div className={classes.external_links}>
               <a

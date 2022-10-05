@@ -19,12 +19,10 @@ const AboutMe = () => {
             <h3 className={classes["about__content-title"]}>Get to know me!</h3>
             <div className={classes["about__content-details"]}>
               <p className={classes["about__content-details-para"]}>
-                Hey! {"It's"}
-                <strong> Alvaro Torres. </strong>
                 {"I'm"} a <strong> Frontend Web Developer </strong> located in
                 Krakow and {"I'm"} specially focused in the development of
                 <strong> web applications </strong>
-                with <strong>React</strong> and <strong>Next.js.</strong>
+                with frameworks such as <strong>React</strong> and <strong>Angular.</strong>
               </p>
               <p className={classes["about__content-details-para"]}>
                 I consider myself to be a <strong>fast learner</strong> and I
@@ -36,7 +34,7 @@ const AboutMe = () => {
               </p>
               <p className={classes["about__content-details-para"]}>
                 You can download my CV{" "}
-                <Link href="/CV-Alvaro-Nov2021.pdf" download>
+                <Link href="/CV-Alvaro.pdf" download>
                   <strong className={classes.cv}>here.</strong>
                 </Link>
               </p>
@@ -57,13 +55,13 @@ const AboutMe = () => {
               <div className={classes["skills__skill"]}>Next.js</div>
               <div className={classes["skills__skill"]}>SASS</div>
               <div className={classes["skills__skill"]}>GIT</div>
-              <div className={classes["skills__skill"]}>Firebase</div>
+              <div className={classes["skills__skill"]}>Typescript</div>
               <div className={classes["skills__skill"]}>MongoDB</div>
               <div className={classes["skills__skill"]}>REST API</div>
-              <div className={classes["skills__skill"]}>Material UI</div>
+              <div className={classes["skills__skill"]}>Agile</div>
               <div className={classes["skills__skill"]}>Photoshop</div>
               <div className={classes["skills__skill"]}>Unit Testing</div>
-              <div className={classes["skills__skill"]}>React Testing Library</div>
+              <div className={classes["skills__skill"]}>Angular</div>
             </div>
           </div>
         </div>
