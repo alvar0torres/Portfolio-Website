@@ -6,8 +6,8 @@ const Details = () => {
       <div className={classes["section-container"]}>
         <div className={classes.details__imgContainer}>
           <img
-            src="/car-auctions-mockup.jpg"
-            alt="Software Screenshot"
+            src="/car-auctions_laptop_mockup.jpg"
+            alt="Project Screenshot"
             className={classes.details__img}
             loading="lazy"
           />

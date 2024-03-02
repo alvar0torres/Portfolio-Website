@@ -1,6 +1,6 @@
 //domain.com/gravity
 
-import ProjectNavbar from "../../components/ProjectPage/gravity/Navbar/ProjectNavbar";
+import ProjectNavbar from "../../components/ProjectPage/shared/projectNavbar/ProjectNavbar";
 import Heading from "../../components/ProjectPage/gravity/Heading/Heading";
 import Details from "../../components/ProjectPage/gravity/DetailsSection/Details";
 import Footer from "../../components/Footer/Footer";

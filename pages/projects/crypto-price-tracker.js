@@ -1,6 +1,6 @@
 //domain.com/crypto-price-tracker
 
-import ProjectNavbar from "../../components/ProjectPage/crypto-price-tracker/Navbar/ProjectNavbar";
+import ProjectNavbar from "../../components/ProjectPage/shared/projectNavbar/ProjectNavbar";
 import Heading from "../../components/ProjectPage/crypto-price-tracker/Heading/Heading";
 import Details from "../../components/ProjectPage/crypto-price-tracker/DetailsSection/Details";
 import Footer from "../../components/Footer/Footer";

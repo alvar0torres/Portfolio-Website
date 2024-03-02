@@ -10,8 +10,7 @@ const ContactForm = () => {
           <h1 className={classes.contact__title}>CONTACT</h1>
           <div className={classes.separator}></div>
           <span className={classes.contact__description}>
-            Feel free to Contact me by submitting the form below and I will get
-            back to you as soon as possible
+            Feel free to contact me by submitting the form below.
           </span>
         </div>
 

@@ -20,7 +20,7 @@ const Projects = () => {
           <div className={classes.projects__row}>
             <div className={classes["projects__row-img-cont"]}>
               <img
-                src="/tic-tac-toe_laptop.jpg"
+                src="/tic-tac-toe_laptop_mockup.jpg"
                 alt="Project Screenshot"
                 className={classes["projects__row-img"]}
                 loading="lazy"
@@ -31,7 +31,7 @@ const Projects = () => {
               <p className={classes.project_description}>
                 The classic tic-tac-toe game, for 2 players. Made with Angular
               </p>
-              <Link href="/projects/car-auctions">
+              <Link href="/projects/tic-tac-toe">
                 <button className={classes.button}>MORE</button>
               </Link>
             </div>
@@ -42,7 +42,7 @@ const Projects = () => {
           <div className={classes.projects__row}>
             <div className={classes["projects__row-img-cont"]}>
               <img
-                src="/gravity_laptop.jpg"
+                src="/gravity_laptop_mockup.jpg"
                 alt="Project Screenshot"
                 className={classes["projects__row-img"]}
                 loading="lazy"
@@ -65,7 +65,7 @@ const Projects = () => {
           <div className={classes.projects__row}>
             <div className={classes["projects__row-img-cont"]}>
               <img
-                src="/fiszki_mockup.jpg"
+                src="/fiszki_laptop_mockup.jpg"
                 alt="Project Screenshot"
                 className={classes["projects__row-img"]}
                 loading="lazy"
@@ -87,7 +87,7 @@ const Projects = () => {
           <div className={classes.projects__row}>
             <div className={classes["projects__row-img-cont"]}>
               <img
-                src="/crypto_tracker_mockup.jpg"
+                src="/crypto_tracker_laptop_mockup.jpg"
                 alt="Project Screenshot"
                 className={classes["projects__row-img"]}
                 loading="lazy"
@@ -110,7 +110,7 @@ const Projects = () => {
           <div className={classes.projects__row}>
             <div className={classes["projects__row-img-cont"]}>
               <img
-                src="/car-auctions-mockup.jpg"
+                src="/car-auctions_laptop_mockup.jpg"
                 alt="Project Screenshot"
                 className={classes["projects__row-img"]}
                 loading="lazy"
