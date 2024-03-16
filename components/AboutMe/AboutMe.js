@@ -26,6 +26,7 @@ const AboutMe = () => {
                 <strong> web applications </strong>
                 with frameworks such as <strong>Angular</strong> and{" "}
                 <strong>React.</strong>
+                {" "}On top of that I have some backend experience with <strong>Node.js.</strong>
               </p>
               <p className={classes["about__content-details-para"]}>
                 I consider myself to be a <strong>fast learner</strong> and I
@@ -46,7 +47,7 @@ const AboutMe = () => {
               <button className={classes.button}>CONTACT</button>
             </Link>
           </div>
-          
+
           <div id="skills" className={classes["about__content-skills"]}>
             <h3 className={classes["about__content-title"]}>My Skills</h3>
             <Skills />

@@ -26,7 +26,7 @@ const Skills = () => {
   return (
     <div className={classes["skills"]}>
       {skillList.map((skill) => (
-        <div className={classes["skills__skill"]}>{skill}</div>
+        <div key="{skill}" className={classes["skills__skill"]}>{skill}</div>
       ))}
     </div>
   );
