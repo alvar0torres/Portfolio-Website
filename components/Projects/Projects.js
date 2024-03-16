@@ -29,7 +29,7 @@ const Projects = () => {
             <div>
               <h3 className={classes.project_title}>Tic-Tac-Toe</h3>
               <p className={classes.project_description}>
-                The classic tic-tac-toe game, for 2 players. Made with Angular
+                The classic tic-tac-toe game, for 2 players. Made with Angular.
               </p>
               <Link href="/projects/tic-tac-toe">
                 <button className={classes.button}>MORE</button>
