@@ -34,7 +34,7 @@ const AboutMe = () => {
               </p>
               <p className={classes["about__content-details-para"]}>
                 You can download my CV{" "}
-                <Link href="/CV-Alvaro.pdf" download>
+                <Link href="/CV-Alvaro-2024.pdf" download>
                   <strong className={classes.cv}>here.</strong>
                 </Link>
               </p>
