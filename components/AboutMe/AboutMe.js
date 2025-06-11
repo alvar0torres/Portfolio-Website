@@ -36,12 +36,6 @@ const AboutMe = () => {
                 Also, I have a wide range of <strong>soft skills</strong> that I
                 have gained during my experience in previous positions.
               </p>
-              <p className={classes["about__content-details-para"]}>
-                You can download my CV{" "}
-                <a href="/CV-Alvaro-2024.pdf" target="_blank">
-                  <strong className={classes.cv}>here.</strong>
-                </a>
-              </p>
             </div>
             <Link href="/#contact">
               <button className={classes.button}>CONTACT</button>
